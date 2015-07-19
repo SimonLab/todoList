@@ -1,0 +1,15 @@
+{
+  "name": "toDoRiotSocketRedis",
+  "version": "1.0.0",
+  "description": "a todo list created with Riot Socket and Redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo",
+    "list"
+  ],
+  "author": "SimonLab",
+  "license": "ISC"
+}
