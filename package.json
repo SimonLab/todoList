@@ -2,14 +2,23 @@
   "name": "toDoRiotSocketRedis",
   "version": "1.0.0",
   "description": "a todo list created with Riot Socket and Redis",
-  "main": "index.js",
+  "main": "api/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node api/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:riot": "node_modules/.bin/riot -w ./src/tags ./public/js/todo-tag.js",
+    "watch": "npm run watch:riot"
   },
   "keywords": [
     "todo",
     "list"
   ],
   "author": "SimonLab",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^8.8.0"
+  },
+  "devDependencies": {
+    "riot": "^2.2.2"
+  }
 }
